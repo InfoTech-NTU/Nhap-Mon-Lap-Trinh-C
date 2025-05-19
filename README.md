@@ -80,4 +80,6 @@
 | 13  | i + j > n - 1               | Phần tử thuộc **tam giác dưới đường chéo phụ** (Không tính đường chéo phụ)   |
 | 14  | ...                         | ...                                                                    |
 
->>📑 Một số thông tin tham khảo, rất mong sẽ hỗ trợ được mọi người
+---
+
+>📑 Một số thông tin tham khảo, rất mong sẽ hỗ trợ được mọi người
