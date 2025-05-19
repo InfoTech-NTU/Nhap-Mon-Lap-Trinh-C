@@ -49,3 +49,21 @@
 
 ---
 
+## 💡 Một số gợi ý - tham khảo
+### 1. Một số thư viện hay dùng
+
+| STT | Thư viện     | Chức năng                                                      |
+|-----|--------------|-----------------------------------------------------------------|
+| 1   | stdio.h      | Nhập/xuất dữ liệu (printf, scanf, fopen, fclose, ...)          |
+| 2   | stdlib.h     | Quản lý bộ nhớ (malloc, free), ép kiểu, tạo số ngẫu nhiên      |
+| 3   | string.h     | Xử lý chuỗi (strlen, strcpy, strcat, strcmp, ...)              |
+| 4   | math.h       | Các hàm toán học (sqrt, pow, sin, cos, ...)                    |
+| 5   | limits.h     | Giá trị giới hạn của các kiểu dữ liệu                          |
+
+### 2. Một số điều kiện
+
+| STT | Điều kiện     | Chức năng                                                      |
+|-----|--------------|-----------------------------------------------------------------|
+| 1   | n % 2  == 0  | Điều kiện cho số n là số chẵn                                   |
+| 2   | n % 2 == 1   | Điều kiện cho số n là số lẻ
+        n % 2 != 0
