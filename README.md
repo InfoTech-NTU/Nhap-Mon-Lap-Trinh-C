@@ -59,11 +59,25 @@
 | 3   | string.h     | Xử lý chuỗi (strlen, strcpy, strcat, strcmp, ...)              |
 | 4   | math.h       | Các hàm toán học (sqrt, pow, sin, cos, ...)                    |
 | 5   | limits.h     | Giá trị giới hạn của các kiểu dữ liệu                          |
+| 6   | ...          | ...                                                            |
 
 ### 2. Một số điều kiện
 
-| STT | Điều kiện     | Chức năng                                                      |
-|-----|--------------|-----------------------------------------------------------------|
-| 1   | n % 2  == 0  | Điều kiện cho số n là số chẵn                                   |
-| 2   | n % 2 == 1   | Điều kiện cho số n là số lẻ
-        n % 2 != 0
+| STT | Điều kiện                   | Chức năng                                                       |
+|-----|-----------------------------|-----------------------------------------------------------------|
+| 1   | n % 2  == 0                 | Điều kiện cho số n là **số chẵn**                               |
+| 2   | n % 2 == 1 hoặc n % 2 != 0  | Điều kiện cho số n là **số lẻ**                                 |
+| 3   | n % k == 0                  | Kiểm tra số **chia hết cho k**                                  |
+| 4   | temp = m % n                | Lấy kết quả dư của phép chia                                    |
+| 5   | abs(n)                      | Lấy **giá trị tuyệt đối** của `n` (`<stdlib.h>`)                |
+| 6   | sqrt(n)                     | Lấy **giá trị căn bậc 2** của `n` (`<math.h>`)                  |
+| 7   | pow(n,2)                    | Lấy **giá trị bình phương** của `n` (`<math.h>`)                |
+| 8   | i == j                      | Phần tử nằm trên **đường chéo chính**                           |
+| 9   | i + j == n - 1              | Phần tử nằm trên **đường chéo phụ**                             |
+| 10  | i < j                       | Phần tử thuộc **tam giác trên đường chéo chính** (Không tính đường chéo chính)   |
+| 11  | i > j                       | Phần tử thuộc **tam giác dưới đường chéo chính** (Không tính đường chéo chính)   |
+| 12  | i + j < n - 1               | Phần tử thuộc **tam giác trên đường chéo phụ** (Không tính đường chéo phụ)   |
+| 13  | i + j > n - 1               | Phần tử thuộc **tam giác dưới đường chéo phụ** (Không tính đường chéo phụ)   |
+| 14  | ...                         | ...                                                                    |
+
+>>📑 Một số thông tin tham khảo, rất mong sẽ hỗ trợ được mọi người
