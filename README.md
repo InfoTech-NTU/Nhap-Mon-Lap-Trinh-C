@@ -45,7 +45,7 @@
 - 🔹 Khái niệm về chuỗi và cách khai báo  
 - 🔹 Các thao tác cơ bản: nhập, xuất, duyệt chuỗi, đếm ký tự...  
 - 🔹 Một số hàm chuỗi có sẵn trong thư viện `<string.h>` như `strlen`, `strcpy`, `strcmp`, `strcat`...  
-- 🔹 📝 **Bài tập thực hành xử lý chuỗi**
+- 🔹 📝 **[Bài tập thực hành xử lý chuỗi](https://github.com/InfoTech-NTU/Nhap-Mon-Lap-Trinh-C/tree/main/Bai_Tap_Chuoi)**
 
 ---
 
